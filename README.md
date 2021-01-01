@@ -1,4 +1,4 @@
-﻿## Genuary
+## Genuary
 
 Using _OpenFrameworks_ for a month.
 
@@ -23,3 +23,8 @@ I'll upload my daily challenges here:
 ## 1st January
 
 // TRIPLE NESTED LOOP
+
+![day 1](Jan-1/Jan-1_1.png)
+![day 1](Jan-1/Jan-1_2.png)
+![day 1](Jan-1/Jan-1_3.png)
+![day 1](Jan-1/Jan-1_4.png)
