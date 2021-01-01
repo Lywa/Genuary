@@ -23,5 +23,3 @@ I'll upload my daily challenges here:
 ## 1st January
 
 // TRIPLE NESTED LOOP
-
-Galaxy Beta Maker is an interactive experience that brings an opportunity to control temporarily a procedurally generated galaxy. As well as having visible matter (5% of existing matter), the piece provides a chance to experiment with dark matter (25%) and see the consequences towards visible matter of changing the quantity of this invisible and mysterious element.
