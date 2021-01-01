@@ -20,11 +20,23 @@ You can use any language, framework or medium. Please respect the Geneva Convent
 I'll upload my daily challenges here:
 
 
-## 1st January
+## 1st of January
 
 // TRIPLE NESTED LOOP
 
-![day 1](Jan-1/Jan-1_1.png)
+The first two nested loops create a grid & the third draws a series of squares that start from the same point (x,y) with incremental size within every point in the grid. Additionally, every square alternates colors to create an illusion of depth.
+
 ![day 1](Jan-1/Jan-1_2.png)
+_Baseline colors: B/W_
+
+![day 1](Jan-1/Jan-1_1.png)
+_ Baseline colors: B/W + Black background_
+
 ![day 1](Jan-1/Jan-1_3.png)
+_ Baseline colors: B/W + Gray background_
+
 ![day 1](Jan-1/Jan-1_4.png)
+_ Custom colors: Purple & White + Salmon background_
+
+
+
