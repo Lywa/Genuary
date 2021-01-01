@@ -40,6 +40,6 @@ _Custom colors: Purple & White + Salmon background_
 
 
 [![Watch the video](Jan-1/Jan-1_video.png)](https://youtu.be/ZnE48DMeWCQ)
-
+_Inveractive version: Move slider to change the depth of the squares (Youtube)_
 
 
