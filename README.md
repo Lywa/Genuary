@@ -39,7 +39,7 @@ _Baseline colors: B/W + Gray background_
 _Custom colors: Purple & White + Salmon background_
 
 
-![Watch the video](Jan-1/Jan-1_4.png)](https://youtu.be/ZnE48DMeWCQ)
+[![Watch the video](Jan-1/Jan-1_4.png)](https://youtu.be/ZnE48DMeWCQ)
 
 
 
