@@ -30,13 +30,13 @@ The first two nested loops create a grid & the third draws a series of squares t
 _Baseline colors: B/W_
 
 ![day 1](Jan-1/Jan-1_1.png)
-_ Baseline colors: B/W + Black background _
+_Baseline colors: B/W + Black background_
 
 ![day 1](Jan-1/Jan-1_3.png)
-_ Baseline colors: B/W + Gray background _
+_Baseline colors: B/W + Gray background_
 
 ![day 1](Jan-1/Jan-1_4.png)
-_ Custom colors: Purple & White + Salmon background _
+_Custom colors: Purple & White + Salmon background_
 
 
 
