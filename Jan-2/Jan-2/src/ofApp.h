@@ -1,0 +1,39 @@
+#pragma once
+
+#include "ofMain.h"
+
+class ofApp : public ofBaseApp{
+
+	public:
+		void setup();
+		void update();
+		void draw();
+
+		void keyPressed(int key);
+		void keyReleased(int key);
+		void mouseMoved(int x, int y );
+		void mouseDragged(int x, int y, int button);
+		void mousePressed(int x, int y, int button);
+		void mouseReleased(int x, int y, int button);
+		void mouseEntered(int x, int y);
+		void mouseExited(int x, int y);
+		void windowResized(int w, int h);
+		void dragEvent(ofDragInfo dragInfo);
+		void gotMessage(ofMessage msg);
+    
+    int rule30 [8] = {0,0,0,1,1,1,1,0};
+    int currentGen [8] = {0,0,0,0,1,0,0,0};
+    int nextGen [8] = {};
+    
+    // 111 = 0;
+    // 110 = 0;
+    // 101 = 0;
+    // 100 = 1;
+    // 011 = 1;
+    // 010 = 1;
+    // 001 = 1;
+    // 000 = 0;
+    
+    
+		
+};
