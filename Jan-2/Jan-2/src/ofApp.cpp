@@ -1,5 +1,6 @@
 #include "ofApp.h"
 
+
 //--------------------------------------------------------------
 void ofApp::setup(){
     
@@ -11,212 +12,15 @@ void ofApp::setup(){
     // 010 = 1;
     // 001 = 1;
     // 000 = 0;
-    
-    
-    
-    for ( int i =0 ; i<8 ; i ++ ){
-        
-            std::cout <<  currentGen[i]  << "  " ;
-        }
 
-    std::cout << endl;
-    
-    
-    for ( int i =0 ; i<8 ; i ++ ){
-        
-        
-        if ( currentGen[i-1] == 1  && currentGen[i] ==1 && currentGen[i+1] ==1 ){
-            
-            nextGen[i] = 0;
-            std::cout <<  nextGen[i]  << "  " ;
-        }
-        
-        if ( currentGen[i-1] == 1  && currentGen[i] ==1 && currentGen[i+1] ==0 ){
-            
-            nextGen[i] = 0;
-            std::cout <<  nextGen[i]  << "  " ;
-        }
-        if ( currentGen[i-1] == 1  && currentGen[i] ==0 && currentGen[i+1] ==1 ){
-            
-            nextGen[i] = 0;
-            std::cout <<  nextGen[i]  << "  " ;
-        }
-        if ( currentGen[i-1] == 1  && currentGen[i] ==0 && currentGen[i+1] ==0 ){
-            
-            nextGen[i] = 1;
-            std::cout <<  nextGen[i]  << "  " ;
-        }
-        if ( currentGen[i-1] == 0  && currentGen[i] ==1 && currentGen[i+1] ==1 ){
-            
-            nextGen[i] = 1;
-            std::cout <<  nextGen[i]  << "  " ;
-        }
-        if ( currentGen[i-1] == 0  && currentGen[i] ==1 && currentGen[i+1] ==0 ){
-            
-            nextGen[i] = 1;
-            std::cout <<  nextGen[i]  << "  " ;
-        }
-        if ( currentGen[i-1] == 0  && currentGen[i] ==0 && currentGen[i+1] ==1 ){
-            
-            nextGen[i] = 1;
-            std::cout <<  nextGen[i]  << "  " ;
-        }
-        if ( currentGen[i-1] == 0  && currentGen[i] ==0 && currentGen[i+1] ==0 ){
-            
-            nextGen[i] = 0;
-            std::cout <<  nextGen[i]  << "  " ;
-        }
-
-        
-    }
-    
-    std::cout << endl;
-    
-    for ( int i =0 ; i<8 ; i ++ ){
-        
-        currentGen[i] = nextGen[i];
-        
-    }
-
- 
-    for ( int i =0 ; i<8 ; i ++ ){
-        
-        
-        if ( currentGen[i-1] == 1  && currentGen[i] ==1 && currentGen[i+1] ==1 ){
-            
-            nextGen[i] = 0;
-            std::cout <<  nextGen[i]  << "  " ;
-        }
-        
-        if ( currentGen[i-1] == 1  && currentGen[i] ==1 && currentGen[i+1] ==0 ){
-            
-            nextGen[i] = 0;
-            std::cout <<  nextGen[i]  << "  " ;
-        }
-        if ( currentGen[i-1] == 1  && currentGen[i] ==0 && currentGen[i+1] ==1 ){
-            
-            nextGen[i] = 0;
-            std::cout <<  nextGen[i]  << "  " ;
-        }
-        if ( currentGen[i-1] == 1  && currentGen[i] ==0 && currentGen[i+1] ==0 ){
-            
-            nextGen[i] = 1;
-            std::cout <<  nextGen[i]  << "  " ;
-        }
-        if ( currentGen[i-1] == 0  && currentGen[i] ==1 && currentGen[i+1] ==1 ){
-            
-            nextGen[i] = 1;
-            std::cout <<  nextGen[i]  << "  " ;
-        }
-        if ( currentGen[i-1] == 0  && currentGen[i] ==1 && currentGen[i+1] ==0 ){
-            
-            nextGen[i] = 1;
-            std::cout <<  nextGen[i]  << "  " ;
-        }
-        if ( currentGen[i-1] == 0  && currentGen[i] ==0 && currentGen[i+1] ==1 ){
-            
-            nextGen[i] = 1;
-            std::cout <<  nextGen[i]  << "  " ;
-        }
-        if ( currentGen[i-1] == 0  && currentGen[i] ==0 && currentGen[i+1] ==0 ){
-            
-            nextGen[i] = 0;
-            std::cout <<  nextGen[i]  << "  " ;
-        }
-
-        
-    }
-    
-    std::cout << endl;
-    
-    for ( int i =0 ; i<8 ; i ++ ){
-        
-        currentGen[i] = nextGen[i];
-        
-    }
-
- 
-    for ( int i =0 ; i<8 ; i ++ ){
-        
-        
-        if ( currentGen[i-1] == 1  && currentGen[i] ==1 && currentGen[i+1] ==1 ){
-            
-            nextGen[i] = 0;
-            std::cout <<  nextGen[i]  << "  " ;
-        }
-        
-        if ( currentGen[i-1] == 1  && currentGen[i] ==1 && currentGen[i+1] ==0 ){
-            
-            nextGen[i] = 0;
-            std::cout <<  nextGen[i]  << "  " ;
-        }
-        if ( currentGen[i-1] == 1  && currentGen[i] ==0 && currentGen[i+1] ==1 ){
-            
-            nextGen[i] = 0;
-            std::cout <<  nextGen[i]  << "  " ;
-        }
-        if ( currentGen[i-1] == 1  && currentGen[i] ==0 && currentGen[i+1] ==0 ){
-            
-            nextGen[i] = 1;
-            std::cout <<  nextGen[i]  << "  " ;
-        }
-        if ( currentGen[i-1] == 0  && currentGen[i] ==1 && currentGen[i+1] ==1 ){
-            
-            nextGen[i] = 1;
-            std::cout <<  nextGen[i]  << "  " ;
-        }
-        if ( currentGen[i-1] == 0  && currentGen[i] ==1 && currentGen[i+1] ==0 ){
-            
-            nextGen[i] = 1;
-            std::cout <<  nextGen[i]  << "  " ;
-        }
-        if ( currentGen[i-1] == 0  && currentGen[i] ==0 && currentGen[i+1] ==1 ){
-            
-            nextGen[i] = 1;
-            std::cout <<  nextGen[i]  << "  " ;
-        }
-        if ( currentGen[i-1] == 0  && currentGen[i] ==0 && currentGen[i+1] ==0 ){
-            
-            nextGen[i] = 0;
-            std::cout <<  nextGen[i]  << "  " ;
-        }
-
-        
-    }
-    
-    
-    
-    
-    /*for ( int i =0 ; i<8 ; i ++ ){
-        
-        std::cout <<  rule30[i-1] << "  " ;
-        
-    }
-    std::cout << endl;
-    
-    for ( int i =0 ; i<8 ; i ++ ){
-        
-        std::cout <<  rule30[i] << "  " ;
-        
-    }
-
-    std::cout << endl;
-    
-     
-    for ( int i =0 ; i< 8; i ++ ){
-        
-        std::cout <<  rule30[i+1] << "  " ;
-        
-    }
-    std::cout << endl;
-     
-    */
-    
     
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
+    
+    evaluateNextGen();
+
 
 }
 
@@ -279,3 +83,70 @@ void ofApp::gotMessage(ofMessage msg){
 void ofApp::dragEvent(ofDragInfo dragInfo){ 
 
 }
+
+void ofApp::evaluateNextGen() {
+    
+    for ( int i =0 ; i<8 ; i ++ ){
+        
+        std::cout <<  currentGen[i]  << "  " ;
+    }
+    
+    std::cout << endl;
+    
+    
+    for ( int i =0 ; i<8 ; i ++ ){
+        
+        
+        if ( currentGen[i-1] == 1  && currentGen[i] ==1 && currentGen[i+1] ==1 ){
+            
+            nextGen[i] = 0;
+            //std::cout <<  nextGen[i]  << "  " ;
+        }
+        
+        if ( currentGen[i-1] == 1  && currentGen[i] ==1 && currentGen[i+1] ==0 ){
+            
+            nextGen[i] = 0;
+            //std::cout <<  nextGen[i]  << "  " ;
+        }
+        if ( currentGen[i-1] == 1  && currentGen[i] ==0 && currentGen[i+1] ==1 ){
+            
+            nextGen[i] = 0;
+            //std::cout <<  nextGen[i]  << "  " ;
+        }
+        if ( currentGen[i-1] == 1  && currentGen[i] ==0 && currentGen[i+1] ==0 ){
+            
+            nextGen[i] = 1;
+            //std::cout <<  nextGen[i]  << "  " ;
+        }
+        if ( currentGen[i-1] == 0  && currentGen[i] ==1 && currentGen[i+1] ==1 ){
+            
+            nextGen[i] = 1;
+            //std::cout <<  nextGen[i]  << "  " ;
+        }
+        if ( currentGen[i-1] == 0  && currentGen[i] ==1 && currentGen[i+1] ==0 ){
+            
+            nextGen[i] = 1;
+            //std::cout <<  nextGen[i]  << "  " ;
+        }
+        if ( currentGen[i-1] == 0  && currentGen[i] ==0 && currentGen[i+1] ==1 ){
+            
+            nextGen[i] = 1;
+            //std::cout <<  nextGen[i]  << "  " ;
+        }
+        if ( currentGen[i-1] == 0  && currentGen[i] ==0 && currentGen[i+1] ==0 ){
+            
+            nextGen[i] = 0;
+            //std::cout <<  nextGen[i]  << "  " ;
+        }
+        
+        
+    }
+    
+    
+    for ( int i =0 ; i<8 ; i ++ ){
+        
+        currentGen[i] = nextGen[i];
+        
+    }
+}
+

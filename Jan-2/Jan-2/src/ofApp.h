@@ -5,7 +5,9 @@
 class ofApp : public ofBaseApp{
 
 	public:
-		void setup();
+    void evaluateNextGen();
+    
+    void setup();
 		void update();
 		void draw();
 
@@ -34,6 +36,6 @@ class ofApp : public ofBaseApp{
     // 001 = 1;
     // 000 = 0;
     
-    
+//    int[] printCurrent(int index )
 		
 };
