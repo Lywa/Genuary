@@ -39,8 +39,8 @@ void ofApp::draw(){
     /*if (ofGetFrameNum() % 60 != 0)
         return;*/
     
-    evaluateNextGen();
     printLine();
+    evaluateNextGen();
     gui.draw();
     
 }
