@@ -12,6 +12,10 @@ void ofApp::setup(){
     // 010 = 1;
     // 001 = 1;
     // 000 = 0;
+    
+    ofSetBackgroundAuto(false);
+    ofSetFrameRate(10);
+ 
 
     
 }
@@ -19,14 +23,19 @@ void ofApp::setup(){
 //--------------------------------------------------------------
 void ofApp::update(){
     
-    evaluateNextGen();
-
-
+    
 }
+
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-
+    /*if (ofGetFrameNum() % 60 != 0)
+        return;*/
+    
+    evaluateNextGen();
+    printLine();
+   
+    
 }
 
 //--------------------------------------------------------------
@@ -150,3 +159,38 @@ void ofApp::evaluateNextGen() {
     }
 }
 
+void ofApp::printLine() {
+    int cell = 0;
+
+    
+    for ( int x= 0; x < ofGetWidth();x+=(ofGetWidth()/8)){
+        
+        if (currentGen[cell] == 0){
+            ofSetColor(ofColor(0,0,0));
+            ofDrawRectangle(x, height, (ofGetWidth()/8), (ofGetWidth()/8));
+            
+        }
+        if (currentGen[cell] == 1){
+            ofSetColor(ofColor(255,255,255));
+            ofDrawRectangle(x, height, (ofGetWidth()/8), (ofGetWidth()/8));
+            
+            
+        }
+        
+        cell++;
+        
+    }
+    
+    height= height+ ofGetWidth()/8;
+    if (height >= ofGetHeight()) {
+        height = 0;
+        
+        for ( int i =0 ; i<8 ; i ++ ){
+            
+            currentGen[i] = resetGen[i];
+           //printLine();
+            
+        }
+        
+    }
+}

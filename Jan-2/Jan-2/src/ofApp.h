@@ -6,10 +6,13 @@ class ofApp : public ofBaseApp{
 
 	public:
     void evaluateNextGen();
+    void printLine();
     
     void setup();
 		void update();
-		void draw();
+    void extracted();
+    
+    void draw();
 
 		void keyPressed(int key);
 		void keyReleased(int key);
@@ -26,6 +29,8 @@ class ofApp : public ofBaseApp{
     int rule30 [8] = {0,0,0,1,1,1,1,0};
     int currentGen [8] = {0,0,0,0,1,0,0,0};
     int nextGen [8] = {};
+    int height= 0;
+    int resetGen [8] = {0,0,0,0,1,0,0,0};
     
     // 111 = 0;
     // 110 = 0;
