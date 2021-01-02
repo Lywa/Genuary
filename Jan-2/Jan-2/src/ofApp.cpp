@@ -14,7 +14,12 @@ void ofApp::setup(){
     // 000 = 0;
     
     ofSetBackgroundAuto(false);
-    ofSetFrameRate(10);
+    ofSetFrameRate(30);
+    
+    
+    index.set("Index", 5, 0, 7);
+    gui.setup();
+    gui.add(index);
  
 
     
@@ -22,6 +27,8 @@ void ofApp::setup(){
 
 //--------------------------------------------------------------
 void ofApp::update(){
+    
+    selectedIndex = index.get();
     
     
 }
@@ -34,7 +41,7 @@ void ofApp::draw(){
     
     evaluateNextGen();
     printLine();
-   
+    gui.draw();
     
 }
 
@@ -150,7 +157,7 @@ void ofApp::evaluateNextGen() {
         
         
     }
-    
+
     
     for ( int i =0 ; i<8 ; i ++ ){
         
@@ -187,8 +194,7 @@ void ofApp::printLine() {
         
         for ( int i =0 ; i<8 ; i ++ ){
             
-            currentGen[i] = resetGen[i];
-           //printLine();
+            currentGen[i] = startArray[selectedIndex][i];
             
         }
         

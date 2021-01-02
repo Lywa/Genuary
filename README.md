@@ -43,3 +43,18 @@ _Custom colors: Purple & White + Salmon background_
 _Inveractive version: Move slider to change the depth of the squares (Youtube)_
 
 
+## 2nd of January
+
+// Rule 30 (elementary cellular automaton)
+
+https://www.wolframalpha.com/input/?i=rule+30
+
+Important reference about Cellular Automata --> The Nature of Code | Daniel Shiffman
+https://www.youtube.com/watch?app=desktop&v=W1zKu3fDQR8
+
+![day 2](Jan-2/Jan-2_1.png)
+_First Generations_
+
+
+[![Watch the video](Jan-2/Jan-2_video.png)](https://youtu.be/wTU4K_uB5qs)
+_Inveractive version: Move slider to change the starting Index of the first row of the cellular automaton (Youtube)_
