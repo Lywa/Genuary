@@ -20,6 +20,8 @@ void ofApp::draw(){
     
     //smileys.draw(0, 0);
     
+    // Code based on OF example: imageLoaderExample
+    
     ofPixels & pixels = smileysIcon.getPixels();
     ofSetColor(0, 0, 0);
     
@@ -37,6 +39,7 @@ void ofApp::draw(){
             int radius = 0.5 + size * diameter /2 ;
             
             ofDrawCircle(xPos, yPos, radius);
+            //ofDrawRectangle(xPos, yPos, radius, radius);
         }
     }
     
