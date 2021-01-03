@@ -66,3 +66,11 @@ _30 cells Cellular Automaton using Rule 30 and an slider_
 [![Watch the video](Jan-2/Jan-2_video_2.png)](https://youtu.be/YpYyDdHiOjY)
 _Inveractive version: Move slider to change the starting Index of the first row of the cellular automaton (Youtube)_
 
+## 3rd of January
+
+// Make something human
+
+What's more human than emotions? Not too human pixelized smiley faces.
+
+![day 3](Jan-3/Jan-3_1.png)
+_Pixelized icons using the value of the pixel in greyscale to created different radius' circles._
