@@ -63,6 +63,6 @@ _Inveractive version: Move slider to change the starting Index of the first row 
 _30 cells Cellular Automaton using Rule 30 and an slider_
 
 
-[![Watch the video](Jan-2/Jan-2_video.png)](https://youtu.be/YpYyDdHiOjY)
+[![Watch the video](Jan-2/Jan-2_video_2.png)](https://youtu.be/YpYyDdHiOjY)
 _Inveractive version: Move slider to change the starting Index of the first row of the cellular automaton (Youtube)_
 
