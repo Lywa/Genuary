@@ -17,10 +17,13 @@ void ofApp::setup(){
     ofSetFrameRate(30);
     
     
-    index.set("Index", 5, 0, 7);
+    /*index.set("Index", 5, 0, 7);
     gui.setup();
-    gui.add(index);
- 
+    gui.add(index);*/
+    
+    indexL.set("Index", 5, 0, 29);
+    gui.setup();
+    gui.add(indexL);
 
     
 }
@@ -28,7 +31,7 @@ void ofApp::setup(){
 //--------------------------------------------------------------
 void ofApp::update(){
     
-    selectedIndex = index.get();
+    selectedIndexL = indexL.get();
     
     
 }
@@ -39,8 +42,8 @@ void ofApp::draw(){
     /*if (ofGetFrameNum() % 60 != 0)
         return;*/
     
-    printLine();
-    evaluateNextGen();
+    printLineL();
+    evaluateNextGenL();
     gui.draw();
     
 }
@@ -195,6 +198,107 @@ void ofApp::printLine() {
         for ( int i =0 ; i<8 ; i ++ ){
             
             currentGen[i] = startArray[selectedIndex][i];
+            
+        }
+        
+    }
+}
+
+void ofApp::evaluateNextGenL() {
+    
+    for ( int i =0 ; i<30 ; i ++ ){
+        
+        std::cout <<  currentGenL[i]  << "  " ;
+    }
+    
+    std::cout << endl;
+    
+    
+    for ( int i =0 ; i<30; i ++ ){
+        
+        
+        if ( currentGenL[i-1] == 1  && currentGenL[i] ==1 && currentGenL[i+1] ==1 ){
+            
+            nextGenL[i] = 0;
+            //std::cout <<  nextGen[i]  << "  " ;
+        }
+        
+        if ( currentGenL[i-1] == 1  && currentGenL[i] ==1 && currentGenL[i+1] ==0 ){
+            
+            nextGenL[i] = 0;
+            //std::cout <<  nextGen[i]  << "  " ;
+        }
+        if ( currentGenL[i-1] == 1  && currentGenL[i] ==0 && currentGenL[i+1] ==1 ){
+            
+            nextGenL[i] = 0;
+            //std::cout <<  nextGen[i]  << "  " ;
+        }
+        if ( currentGenL[i-1] == 1  && currentGenL[i] ==0 && currentGenL[i+1] ==0 ){
+            
+            nextGenL[i] = 1;
+            //std::cout <<  nextGen[i]  << "  " ;
+        }
+        if ( currentGenL[i-1] == 0  && currentGenL[i] ==1 && currentGenL[i+1] ==1 ){
+            
+            nextGenL[i] = 1;
+            //std::cout <<  nextGen[i]  << "  " ;
+        }
+        if ( currentGenL[i-1] == 0  && currentGenL[i] ==1 && currentGenL[i+1] ==0 ){
+            
+            nextGenL[i] = 1;
+            //std::cout <<  nextGen[i]  << "  " ;
+        }
+        if ( currentGenL[i-1] == 0  && currentGenL[i] ==0 && currentGenL[i+1] ==1 ){
+            
+            nextGenL[i] = 1;
+            //std::cout <<  nextGen[i]  << "  " ;
+        }
+        if ( currentGenL[i-1] == 0  && currentGenL[i] ==0 && currentGenL[i+1] ==0 ){
+            
+            nextGenL[i] = 0;
+            //std::cout <<  nextGen[i]  << "  " ;
+        }
+        
+        
+    }
+
+    
+    for ( int i =0 ; i<30 ; i ++ ){
+        
+        currentGenL[i] = nextGenL[i];
+        
+    }
+}
+
+void ofApp::printLineL() {
+    int cell = 0;
+
+    
+    for ( int x= 0; x < ofGetWidth();x+=(ofGetWidth()/30)){
+        
+        if (currentGenL[cell] == 0){
+            ofSetColor(ofColor(0,0,0));
+            ofDrawRectangle(x, height, (ofGetWidth()/30), (ofGetWidth()/30));
+            
+        }
+        if (currentGenL[cell] == 1){
+            ofSetColor(ofColor(255,255,255));
+            ofDrawRectangle(x, height, (ofGetWidth()/30), (ofGetWidth()/30));
+            
+            
+        }
+        
+        cell++;
+        
+    }
+    
+    height= height+ ofGetWidth()/30;
+    if (height >= ofGetHeight()) {
+        height = 0;
+        
+        for ( int i =0 ; i<30 ; i ++ ){
+            
+            currentGenL[i] = startArrayL[selectedIndexL][i];
             
         }
         
