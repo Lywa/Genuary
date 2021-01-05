@@ -4,6 +4,7 @@
 void ofApp::setup(){
     
     ofSetBackgroundAuto(false);
+    ofBackground(180, 180, 180);
     
 }
 
@@ -17,9 +18,11 @@ void ofApp::draw(){
     
    
     
+
+    ofSetCircleResolution(100);
     ofNoFill();
     ofSetCircleResolution(100);
-    ofSetColor(counter%255, counter%50, counter);
+    ofSetColor(counter%255, counter%50, counter, counter%255);
     ofDrawCircle(ofGetWidth()/2 +sin(ofGetElapsedTimeMillis())*10,ofGetHeight()/2+cos(ofGetElapsedTimeMillis())*10, (20+ counter)*sin(ofGetElapsedTimeMillis()));
     
     counter++;

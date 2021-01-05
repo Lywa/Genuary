@@ -92,3 +92,17 @@ _Randomized tapestry pattern v.1._
 _Randomized tapestry pattern v.2._
 
 
+## 5th of January
+
+// Do some code golf! How little code can you write to make something interesting? Share the sketch and its code together if you can.
+
+This is a great challenge as writing short code is not exactly my forte. My goal was to created some geometric appeal with the least lines of code possible. 
+
+![day 5](Jan-5/Jan-5_1.png)
+_First iteration drawing circles that increase in size by a counter and change position in relation to a sin and cos function_
+
+![day 5](Jan-5/Jan-5_3.png)
+_Second iteration drawing circles that increase in size by a counter and change position in relation to a sin and cos function_
+
+
+
