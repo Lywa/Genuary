@@ -74,3 +74,21 @@ What's more human than emotions? Not too human pixelized smiley faces.
 
 ![day 3](Jan-3/Jan-3_1.png)
 _Pixelized icons using the value of the pixel in greyscale to created different radius' circles._
+
+
+## 4rd of January
+
+// Small areas of symmetry
+
+For me Anni Albers' work is always an inspiration. First thing that came to mind when reading today's prompt it was one of Anni's Tapestries. So here it goes!
+
+![day 4](Jan-4/Jan-4_OG.png)
+_Anni Albers Tapestry used as a baseline for today's geometry challenge._
+
+![day 4](Jan-4/Jan-4_1.png)
+_Randomized tapestry pattern v.1._
+
+![day 4](Jan-4/Jan-4_2.png)
+_Randomized tapestry pattern v.2._
+
+
