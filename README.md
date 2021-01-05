@@ -101,7 +101,7 @@ This is a great challenge as writing short code is not exactly my forte. My goal
 ![day 5](Jan-5/Jan-5_1.png)
 _First iteration drawing circles that increase in size by a counter and change position in relation to a sin and cos function_
 
-![day 5](Jan-5/Jan-5_3.png)
+![day 5](Jan-5/Jan-5_2.png)
 _Second iteration drawing circles that increase in size by a counter and change position in relation to a sin and cos function_
 
 
