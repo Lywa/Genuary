@@ -92,6 +92,9 @@ _Randomized tapestry pattern v.1._
 _Randomized tapestry pattern v.2._
 
 
+[![Watch the video](Jan-4/Jan-4_video.png)](https://youtu.be/fRmgbaeAI8k)
+
+
 ## 5th of January
 
 // Do some code golf! How little code can you write to make something interesting? Share the sketch and its code together if you can.
@@ -103,6 +106,33 @@ _First iteration drawing circles that increase in size by a counter and change p
 
 ![day 5](Jan-5/Jan-5_2.png)
 _Second iteration drawing circles that increase in size by a counter and change position in relation to a sin and cos function_
+
+## 6th of January
+
+// Triangle subdivision.
+
+I wanted to work with replicating geometries, so I used the prompt to create a base module.
+
+![day 6](Jan-6/Jan-6_1.png)
+_Base module, two overlapping equilateral triangles mirrored from the center of the screen._
+
+![day 6](Jan-6/Jan-6_2.png)
+
+_Using translation to rotate the overlapping triangles from the center of the screen. Every frame there is a rotation an a new module drawn._
+
+![day 6](Jan-6/Jan-6_3.png)
+
+_Using a different color for each overlapping module._
+
+![day 6](Jan-6/Jan-6_4.png)
+_Increasing the triangle size at every frame._
+
+[![Watch the video](Jan-6/Jan-6_video.png)](https://youtu.be/652OmfGpg_A)
+
+
+
+
+
 
 
 

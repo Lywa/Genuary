@@ -25,7 +25,7 @@ void ofApp::draw(){
     ofSetColor(counter%255, counter%50, counter, counter%255);
     ofDrawCircle(ofGetWidth()/2 +sin(ofGetElapsedTimeMillis())*10,ofGetHeight()/2+cos(ofGetElapsedTimeMillis())*10, (20+ counter)*sin(ofGetElapsedTimeMillis()));
     
-    counter++;
+    counter++; 
 
 }
 
