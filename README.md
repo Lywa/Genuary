@@ -167,6 +167,21 @@ _Second brush using 0,0 as the center of the semicircle. Mouse Position changes 
 [![Watch the video](Jan-8/Jan-8_video_2.png)](https://youtu.be/NZos2ZyaXN0)
 
 
+## 9th of January
+
+// Interference patterns.
+
+I wanted to keep it simple to ensure the pattern was truly an interference. In a future iteration I'd like to explore kinetic interferences.
+
+![day9](Jan-9/Jan-9_1.png)
+
+_2 sets of concentric circles drawn from the 2 thirds of the screen to create an interference._
+
+![day9](Jan-9/Jan-9_2.png)
+
+_2 sets of concentric circles drawn from the 2 thirds of the screen to create an interference. Adding depth using colors. _
+
+
 
 
 

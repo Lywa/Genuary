@@ -6,6 +6,10 @@ void ofApp::setup(){
     
     ofSetBackgroundAuto(false);
     ofSetBackgroundColor(255, 255, 255);
+    ofEnableAlphaBlending();
+    ofEnableBlendMode(OF_BLENDMODE_MULTIPLY);
+    ofEnableAntiAliasing();
+    ofEnableSmoothing();
 
 }
 
@@ -20,7 +24,7 @@ void ofApp::draw(){
     
     
     ofNoFill();
-    ofSetLineWidth(7);
+    ofSetLineWidth (15);
     ofSetColor(255, 0, 0, 150);
     ofSetCircleResolution(150);
     ofDrawCircle(ofGetWidth()/3, ofGetHeight()/2, radius);
@@ -29,7 +33,7 @@ void ofApp::draw(){
 
     //ofDrawCircle(mouse.x, mouse.y, radius);
     
-    radius+=15;
+    radius+=25;
 }
 
 //--------------------------------------------------------------
