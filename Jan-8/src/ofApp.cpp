@@ -2,17 +2,27 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
+    
+    ofSetBackgroundAuto(false);
 
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
+    point2 = ofPoint(ofGetMouseX(),ofGetMouseY());
 
 }
 
 //--------------------------------------------------------------
 void ofApp::draw(){
 
+    
+    ofPolyline   polyline2;
+    
+  
+    polyline2.arc(point2,100,100,0,180);
+    ofSetColor(ofColor::white);
+    polyline2.draw();
 }
 
 //--------------------------------------------------------------
