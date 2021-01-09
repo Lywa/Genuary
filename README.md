@@ -129,6 +129,18 @@ _Increasing the triangle size at every frame._
 
 [![Watch the video](Jan-6/Jan-6_video.png)](https://youtu.be/652OmfGpg_A)
 
+## 7th of January
+
+// Generate some rules, then follow them by hand on paper.
+
+![day 7](Jan-7/Jan-7_1.jpg)
+
+_Set of instructions written to be followed using a grid paper and a pen._
+
+![day 7](Jan-7/Jan-7_2.jpg)
+
+_Instructions followed by another person._
+
 
 
 
