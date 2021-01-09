@@ -142,6 +142,30 @@ _Set of instructions written to be followed using a grid paper and a pen._
 _Instructions followed by another person._
 
 
+## 8th of January
+
+// Curves only
+
+The goal for me was to create a brush that would create curves semicircles in different conditions using the mouse position to draw the Polylines.
+
+
+![day8](Jan-8/Jan-8_1.png)
+
+_First brush using the mouse position as center for the semicircle. In this case the drawing was caotic and disorganized._
+
+![day8](Jan-8/Jan-8_2.png)
+
+_First brush using the mouse position as center for the semicircle. In this case the drawing was organized and harmonic._
+
+[![Watch the video](Jan-8/Jan-8_video.png)](https://youtu.be/UHkVkA-y2UM)
+
+
+![day8](Jan-8/Jan-8_3.png)
+
+_Second brush using 0,0 as the center of the semicircle. Mouse Position changes the radius of the circle and the position._
+
+[![Watch the video](Jan-8/Jan-8_video_2.png)](https://youtu.be/NZos2ZyaXN0)
+
 
 
 

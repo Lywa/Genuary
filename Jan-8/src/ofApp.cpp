@@ -19,8 +19,11 @@ void ofApp::draw(){
     
     ofPolyline   polyline2;
     
-  
+    // Arc following mouse position creating a trace
     polyline2.arc(point2,100,100,0,180);
+    
+    // Arc following mouse position creating a trace. Using 0,0 as a center for the radius.
+//  polyline2.arc(0,0,point2.x,point2.y,0,180);
     ofSetColor(ofColor::white);
     polyline2.draw();
 }
