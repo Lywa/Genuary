@@ -27,12 +27,23 @@ void ofApp::draw(){
     int w = tree1.getWidth();
         int h = tree1.getHeight();
         for (int x=0; x<w; x+=selected_value) {
-            for (int y=0; y<h; y+=selected_value) {
+            for (int y=0; y<h; y+=selected_value*2) {
                 ofColor c = tree1.getColor(x, y);
                 ofSetColor(c.r,c.g,c.b);
                 ofFill();
                 
+                // Overlapping Circles grid
+                //ofDrawCircle(x,y, selected_value);
+                
+                // Circles
+                //ofDrawCircle(x,y, selected_value/2);
+                
+                //Squares
                 ofDrawRectangle(x,y, selected_value, selected_value);
+                
+                
+                //Vertical Rectangles
+                //ofDrawRectangle(x,y, selected_value, selected_value*2);
                 
             }
         }

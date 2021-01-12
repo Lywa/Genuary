@@ -155,6 +155,8 @@ _First brush using the mouse position as center for the semicircle. In this case
 
 ![day8](Jan-8/Jan-8_2.png)
 
+
+
 _First brush using the mouse position as center for the semicircle. In this case the drawing was organized and harmonic._
 
 [![Watch the video](Jan-8/Jan-8_video.png)](https://youtu.be/UHkVkA-y2UM)
@@ -179,7 +181,29 @@ _2 sets of concentric circles drawn from the 2 thirds of the screen to create an
 
 ![day9](Jan-9/Jan-9_2.png)
 
-_2 sets of concentric circles drawn from the 2 thirds of the screen to create an interference. Adding depth using colors. _
+_2 sets of concentric circles drawn from the 2 thirds of the screen to create an interference. Adding depth using colors._
+
+## 10th of January
+
+// TREE
+
+What best than a tree covered in snow! I wanted redraw an image pixel by pixel using different shapes.
+
+
+![day10](Jan-10/Jan-10_1.png)
+
+_Pixelized tree drawn using squares._
+
+[![Watch the video](Jan-10/Jan-10_video.png)](https://youtu.be/mV2izrn30PQ)
+
+![day10](Jan-10/Jan-10_2.png)
+_Pixelized tree drawn using overlapping circles._
+
+![day10](Jan-10/Jan-10_3.png)
+_Pixelized tree drawn using circles._
+
+![day10](Jan-10/Jan-10_4.png)
+_Pixelized tree drawn using verticle rectangles._
 
 
 
