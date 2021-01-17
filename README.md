@@ -206,6 +206,39 @@ _Pixelized tree drawn using circles._
 _Pixelized tree drawn using verticle rectangles._
 
 
+## 11th of January
+
+// Use something other than a computer as an autonomous process (or use a non-computer random source).
+
+TBD
+
+## 12th of January
+
+//Use an API (e.g. the weather). Here’s a huge list of free public APIs.
+
+I skipped this one. I've struggled to add an API to OpenFrameworks. I unsuccesfully tried using ofxJSON.
+
+
+## 13th of January
+
+//Do not repeat.
+
+I created a line that rotates from the center in a very soothing manner.
+
+[![Watch the video](Jan-13/Jan-13_video.png)](https://youtu.be/wa2V0tzTlbI)
+
+
+
+## 14th of January
+
+// SUBDIVISION
+
+![day14](Jan-14/Jan-14_1.png)
+_I drew consecutive lines that divided the remaining area on the right or below into halves._
+
+![day14](Jan-14/Jan-14_2.png)
+_I drew consecutive rectangles that divided the remaining area on the right or below into halves._
+
 
 
 
